@@ -1,0 +1,94 @@
+# ----- Unity (Client) -----
+# Big, generated and cache folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emory[Cc]aptures/
+
+# Unity auto-generated crash/trace files
+*.stacktrace
+
+# Mobile build artifacts
+*.apk
+*.aab
+*.ipa
+
+# Unity generated VS/IDE files (we keep .sln/.csproj to support the server)
+*.pidb
+*.booproj
+*.unityproj
+*.userprefs
+
+# Optional Unity features
+[Aa]ssets/AssetStoreTools*
+
+
+# ----- .NET / C# (Server) -----
+# Build output
+[Bb]in/
+[Oo]bj/
+[Rr]elease*/
+[Dd]ebug*/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+
+# Test and coverage
+TestResults/
+*.coverage
+*.coveragexml
+coverage/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Keep solution and project files tracked for the server
+# (Do NOT ignore *.sln or *.csproj globally)
+
+
+# ----- IDE / Editor -----
+.vs/
+.idea/
+*.sln.iml
+.vscode/
+.history/
+
+# Rider / ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Logs
+*.log
+
+
+# ----- OS / Tools -----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Env and local config
+.env
+.env.*
+*.local
+*.local.json
+
+# Misc
+*.orig
+
